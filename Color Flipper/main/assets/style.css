@@ -1,0 +1,67 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
+  }
+
+body {
+    border: 1px solid black;
+    margin: calc(5% + 1.5vw);
+    background-color: rgb(184, 184, 184);
+}
+
+.nav-bar {
+    background-color: black;
+}
+
+.page-title {
+    font-weight: 400;
+    color: white;
+    display: inline;
+
+}
+
+#color-pre-cont {
+    width: 100%;
+    height: auto;
+}
+
+#color-container {
+    width: 50%;
+    margin: 10% auto;
+    border-radius: 1%;
+}
+
+
+.nav-links {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap ;
+}
+
+.button-style {
+    
+    box-sizing: border-box;
+    border: 0.1rem solid black;
+    border-radius: 10%;
+}
+
+.background-container{
+    display: inline;
+}
+#copy-to-clipboard-link{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#copy-div {
+    display: inline;
+}
